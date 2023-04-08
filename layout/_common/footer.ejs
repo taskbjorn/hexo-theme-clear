@@ -1,0 +1,10 @@
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+    <div class="copyright">
+    	<% if(theme.site.copyright) { %>
+        &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+        <% } %>
+        <div class="publishby">
+        	<%= __('copyright.theme_by') %> <a href="https://git.dsme.cc/taskbjorn" target="_blank"> taskbjorn </a><%= __('copyright.base_on') %> <a href="https://github.com/cofess/hexo-theme-clear" target="_blank">clear</a>.
+        </div>
+    </div>
+</footer>
