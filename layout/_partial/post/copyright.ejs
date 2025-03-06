@@ -1,0 +1,31 @@
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <% if (post.permalink) { %>
+    <li class="post-copyright-link hidden-xs">
+      <strong>Link to this article:</strong>
+      <a href="<%- post.permalink %>" title="<%= post.title %>" target="_blank" rel="external"><%- decodeURIComponent(post.permalink) %></a>
+    </li>
+    <% } %>
+    <li class="post-copyright-license">
+      <strong>Copyright notice: </strong> All articles on this blog are licensed under <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY NC 4.0 License</a> unless otherwise stated.
+    </li>
+  </ul>
+</blockquote>
+<% if(theme.profile && theme.profile.enabled) { %>
+<% var profile = theme.profile; %>
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="<%= profile.follow %>" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="<%= url_for(profile.avatar) %>" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="<%= profile.follow %>" target="_blank"><span class="text-dark"><%= profile.author %></span><small class="ml-1x"><%= profile.author_title %></small></a></h3>
+        <div><%= profile.author_description %></div>
+      </div>
+    </figure>
+  </div>
+</div>
+<% } %>

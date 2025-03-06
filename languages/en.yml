@@ -1,0 +1,82 @@
+menu:
+  home: Home
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  repos: Repositories
+  links: Links
+  about: About me
+  buddies: Buddies
+  contact: Get in touch
+  cv: Curriculum Vitae
+nav:
+  all: All
+  older: Older
+  newer: Newer
+page:
+  home: Home
+  archive: Archive
+  archives: Archives
+  category: Category
+  categories: Categories
+  tag: Tag
+  tags: Tags
+  tagcloud: Tag Cloud
+  uncategorized: Uncategorized
+  repository: Repository
+  links: Links
+  links-desc: Welcome to the exchange link, you can leave a message on this page
+  about: About
+pagination: 
+  next: Next
+  prev: Prev
+  page: Page %d
+  pageof: Page %d of %s
+widget:
+  search: Search
+  board: Board
+  archive: Archive
+  tags: Tags
+  categories: Categories
+  tagcloud: Tag Cloud
+  recent_posts: Recent Posts
+profile: 
+  follow: Follow
+  skill: Skills
+  label: Labels
+  work: Works
+  project: Projects
+  link: Links
+insight:
+  hint: Type something...
+  posts: Posts
+  pages: Pages
+  categories: Categories
+  tags: Tags
+  untitled: (Untitled)
+unit:
+  word: words
+  time: minutes
+article:
+  datepublished: Publish date
+  datemodified: Last modified
+  wordcount: Word Count
+  readcount: Read Count
+  more: Read More
+  comments: Comments
+  share: Share
+  catalogue: Table of Contents
+total:
+  article: Total %d articles
+  tag: Total %d tags
+  category: Total %d categories
+  link: Total %d links
+  repository: Total %d projects
+comment: Comment
+tweets: Tweets
+share: Share
+rss_feed: RSS Feed
+copyright:
+  theme_by: Theme by
+  base_on: Based on
+  powered_by: Powered by
